@@ -199,10 +199,12 @@ objref vrec, vrec2, trec
 objref rvec
 objref rn
 rn = new Random(239480)
+rn.Random123()
 rn.discunif(0, bigNum-1)
 
 objref rn2
 rn2 = new Random(2139)
+rn2.Random123()
 rn2.uniform(55,105)
 	i=0	
 	for iii=0,dendSynList.count()-1{ dendSynList.object(iii).gmax = 0.0 }

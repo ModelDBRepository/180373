@@ -30,9 +30,9 @@ for i=0,lengthList.size()-1{
 synList = new List()
 
 randomNum = new Random()
+randomNum.Random123(seed)
 randomNum.uniform(0,totalL)
 randomVec = new Vector(totalSyns)
-randomNum.ACG(seed)
 randomVec.setrand(randomNum)
 randomVec.sort()
 
@@ -53,6 +53,7 @@ distList = new Vector(0)
 access L5PC.soma
 distance()
 r2 = new Random()
+r2.Random123()
 forsec $o2 {
        for i=1,toAdd.x[ind]{
        	   where = r2.uniform(0,1)

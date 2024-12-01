@@ -31,8 +31,8 @@ for i=0,lengthList.size()-1{
 
 synList = new List()
 	randomNum = new Random()
+	randomNum.Random123(246)
 	rN = randomNum.uniform(0,totalL)
-	randomNum.ACG(246)
 	
 
 for i=1,numClust{
@@ -85,8 +85,8 @@ for i=1,numClust{
 	  	 		while(numAdded<synsPerClust){
 	  	 			
 	  	 				randomNum2 = new Random()
+						randomNum2.Random123(246)
 						rN2 = randomNum.uniform(0,totalL1)
-						randomNum2.ACG(246)
 						
 						newInd = cumLList1.indwhere(">",rN2)
 

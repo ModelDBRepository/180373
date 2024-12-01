@@ -35,8 +35,8 @@ for i=0,lengthList.size()-1{
 	seed = 3878
 
 	randomNum = new Random(seed)
+	randomNum.Random123(seed+88)
 	rN = randomNum.uniform(0,totalL)
-	//randomNum.ACG(seed+88)
 	
 print numClust
 for r=1,numClust{
@@ -45,7 +45,6 @@ for r=1,numClust{
 	print "=======Cluster", r, "======="
 	
 	// FIND CENTER OF CLUSTER
-	randomNum.ACG(r+seed+83288)
 	rN = randomNum.uniform(0,totalL)
 	print "random number chosen is ", rN
 	rList1.x[r-1] = rN

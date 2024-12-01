@@ -220,11 +220,13 @@ nClustSyns = new Vector(nPerClust)
 objref rvec
 objref rn
 rn = new Random()
+rn.Random123()
 rn.discunif(0, bigNum-1)
 rvec = new Vector()
 
 objref rn2
 rn2 = new Random()
+rn2.Random123()
 rn2.uniform(55,105)
 
 objref apc
